@@ -1271,3 +1271,227 @@ iframe {
         margin-bottom: 0px;
     }
 }
+@media (max-width: 480px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .form .form-txt, .form .form-details {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form .form-details input[type="text"],
+    .form .form-details input[type="email"],
+    .form .form-details textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .form .form-details button {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-container .content_1,
+    .footer-container .content_2,
+    .footer-container .content_3,
+    .footer-container .content_4 {
+        margin-bottom: 20px;
+    }
+
+    .footer-container .content_4 input[type="email"] {
+        width: 90%;
+    }
+
+    .f-design .f-design-txt {
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .l-news {
+        flex-direction: column;
+    }
+
+    .l-news1, .l-news2, .l-news3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .l-news1 .news1-conte,
+    .l-news2 .news2-conte,
+    .l-news3 .news3-conte {
+        bottom: -40%;
+        left: 5%;
+        padding: 10px;
+    }
+
+    .l-news1 .news1-conte .date-news1 h4,
+    .l-news2 .news2-conte .date-news2 h4,
+    .l-news3 .news3-conte .date-news3 h4 {
+        font-size: 1rem;
+    }
+
+    .l-news1 .news1-conte .date-news1 a,
+    .l-news2 .news2-conte .date-news2 a,
+    .l-news3 .news3-conte .date-news3 a {
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .deal_of_week {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .deal_of_week .names_of_brand p,
+    .deal_of_week .names_of_brand h3 {
+        font-size: 1.2rem;
+    }
+
+    .deal_of_week .countdown h3 {
+        font-size: 1.5rem;
+    }
+
+    .deal_of_week .countdown button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .seller h2 {
+        font-size: 1.5rem;
+    }
+
+    .seller .best-p1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .seller .best-p1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .seller .best-p1 .price {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .best-seller .buy-now button, .best-seller .add-cart button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .collections {
+        flex-direction: column;
+    }
+
+    .content, .content2, .content3 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .content img, .content2 img, .content3 img {
+        height: auto;
+    }
+
+    .img-content, .img-content2, .img-content3 {
+        font-size: 1.5rem;
+    }
+
+    .img-content p, .img-content2 p, .img-content3 p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .home_page img {
+        height: 40vh;
+    }
+
+    .home_txt {
+        top: 15%;
+        left: 5%;
+    }
+
+    .home_txt p {
+        font-size: 12px;
+    }
+
+    .home_txt h2 {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+
+    .home_txt button {
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+
+    .home_txt .home_social_icons a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    .navbar-container {
+        height: 50px;
+    }
+
+    .navbar-container .logo img {
+        height: 20px;
+    }
+
+    .navbar-container .hamburger-lines {
+        height: 20px;
+        width: 25px;
+    }
+
+    .navbar-container .hamburger-lines .line {
+        height: 2px;
+    }
+
+    .navbar .menu-items {
+        padding-top: 60px;
+    }
+
+    .navbar .menu-items li {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 480px) {
+    /* Adjust container width for mobile */
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    /* Make headings and text smaller for mobile */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Adjust padding and margins for mobile */
+    .navbar-container, .menu-items, .home_txt, .collections, .seller, .deal_of_week, .l-news, .footer-container, .form {
+        padding: 10px;
+    }
+
+    /* Ensure buttons are touch-friendly */
+    button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
